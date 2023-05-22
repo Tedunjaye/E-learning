@@ -6,21 +6,22 @@ const Navbar = () => {
   return (
     <Stack 
       className='stack' 
-      sx={{ 
+      style={{ 
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
         backgroundColor: 'green',
-        p: 2,
+        padding: 10,
         color: 'whitesmoke', 
       }}
     >
       <div>
         <Link to='/'> <AutoStoriesTwoToneIcon /> </Link>
-
-        <Link to='/about'> Why E-learning </Link>
-        <Link to='/sign-up'> Create account </Link>
+      </div>
+      <div style={{ display: 'flex', gap: 15 }}>
+        <Link to='/about' sx={{ mr: 5 }}> Why E-learning </Link>
+        <Link to='/sign-up' sx={{ mr: 5 }}> Create account </Link>
         <Link to='/login'> Login </Link>
       </div>
     </Stack>

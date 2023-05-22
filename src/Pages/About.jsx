@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -54,7 +55,7 @@ const About = () => {
             <div className="course-details">
               <h3>Introduction to Web Development</h3>
               <p>Learn the basics of web development and build your first website from scratch.</p>
-              <a href="/courses/intro-web-dev">Enroll Now</a>
+              <Link to="/pay">Enroll Now</Link>
             </div>
           </div>
           <div className="course-card">
@@ -64,7 +65,7 @@ const About = () => {
             <div className="course-details">
               <h3>Data Science Fundamentals</h3>
               <p>Explore the world of data science and learn essential skills for data analysis.</p>
-              <a href="/courses/data-science">Enroll Now</a>
+              <Link to="/pay">Enroll Now</Link>
             </div>
           </div>
         </div>
@@ -92,7 +93,7 @@ const About = () => {
         <div className="container">
           <h2>Start Your Learning Journey Today</h2>
           <p>Unlock your potential and gain new skills with our diverse range of courses.</p>
-          <a href="/sign-up">Get Started</a>
+          <Link to="/sign-up">Get Started</Link>
         </div>
       </section>
 

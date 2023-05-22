@@ -6,6 +6,7 @@ import SignUp from './Pages/SignUp'
 import Login from './Pages/Login'
 import Navbar from './components/Navbar'
 import Dashboard from './components/Dashboard'
+import Payment from './Pages/Payment'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path='/sign-up' Component={SignUp} />
             <Route path='/login' Component={Login} />
             <Route path='/dashboard' Component={Dashboard} />
+            <Route path='/pay' Component={Payment} />
           </Routes>
         </div>
       </Router>

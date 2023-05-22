@@ -1,11 +1,12 @@
-// import { Route, Router, Routes } from "react-router-dom"
-// import About from "../Pages/About"
+
+
+import Sidebar from "./Sidebar"
 
 
 const Dashboard = () => {
   return (
     <div>
-      
+      <Sidebar />
       <h1>Welcome to the path for a great Career</h1>
     </div>
   )
