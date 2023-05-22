@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 2em;
+
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+/* DescriptionPage.css */
+
+/* Hero section */
+.hero-section {
+  background-color: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Features section */
+.features-section {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.features-section h2 {
+  margin-bottom: 40px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.feature-icon {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+/* Course section */
+.course-section {
+  background-color: #f2f2f2;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.course-section h2 {
+  margin-bottom: 40px;
+}
+
+.course-card {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.course-thumbnail {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.course-details {
+  flex: 1;
+}
+
+/* Testimonial section */
+.testimonial-section {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+.testimonial-content {
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+}
+
+/* Call-to-action section */
+.call-to-action {
+  background-color: #f2f2f2;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.call-to-action h2 {
+  margin-bottom: 40px;
+}
+
+.call-to-action a {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Footer section */
+.footer-section {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-section p {
+  color: #fff;
+  margin: 0;
+}
+
+/* Form section */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+form input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  margin: 10px 0;
+}
